@@ -1,6 +1,6 @@
 Git, Github, Sourcetree 강의 시청
 
-금일 작업 내용
+금일 작업 내용('22.07.09)
 1. github, sourcetree 회원가입 및 설치
 - 추 후 설정 방법 모르겠으면 강의 자료 보면서 설치 할것!
 2. kimchi-recpie push, pull, clone 실습
@@ -31,4 +31,20 @@ Git, Github, Sourcetree 강의 시청
 -version : 프로젝트 상태가 변경되는 정보를 알고 있다는 것입니다. git은 가장널이 쓰이는 버전도구 중에 하나로
 commit을 사용해서 버전이 달라지는 것을 관리합니다.
 -tracking : 로컬 repo 와 원격 repo를 연결한다. 추후 강의를 통하여 배움
+
+금일 공부 내용('22.07.10)
+1. tracking : local repo <-> remote repo(를 연결해 준다. (hisstory에서 local, remote repo commit 개수 차이를 알려준다.)
+- push, pull은 tracking 하는 branch에서 서로 자료를 주고 받는 것 
+2. branch : socrcetree에서 문서를 모아놓는 폴더라고 생각하면된다. 여러가지 branch를 만들어서 여러 사람이 작업하고 문서를 통합할 수 있다.
+master, develop, feature, release, hotpix 등의 브런치를 생성하여 각 목적에 맞게 자료를 분배하여 작업할 수 있다.
+branch 생산 시 / 앞부분은 폴더 이름, 뒷부분은 문서 이름을 뜻한다. locol branch에서 또 다른 branch 자료를 만들어서 github에 push해서 관리할수 있다.
+3. merge : 나누어진 branch를 통합해 준다.
+4. merge conflict : 서로 같은 문서를 서로 다른 폴더에서 수정하고 merge 했을 경우 발생한다.(파일 상태에서 해당 파일 수정 후 재 commit)
+5. issue : 각자의 할일을 뜻함, 현업에서는 발생된 문제를 말함
+
+강의 추가 키워드
+- 협업하기 위한 단계 : issue -> branch -> merge = pr 후 merge
+pr : 회의 or 코드 리뷰를 하고 commit and push
+- branch 이름이 중요!! 협업할 때 어떤 작업을 진행하고 있는지 알 수 있도록!
+
 
